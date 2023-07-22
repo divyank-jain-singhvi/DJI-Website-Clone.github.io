@@ -109,8 +109,8 @@ document.getElementById('b11').style.color='white'
 document.getElementById('b11').style.borderColor='white'
 let videoposter=0
 let videocurrentindex=0;
-const videoindexposter=['1st video poster.jpg','/images and video/2nd video poster.jpg','/images and video/3rd video poster.jpg','/images and video/4th video poster.jpg']
-const videoindex=['/images and video/1st video.mp4','/images and video/3rd_video.mp4','/images and video/2nd_video.mp4','/images and video/4th_video.mp4']
+const videoindexposter=['./images and video/1st video poster.jpg','./images and video/2nd video poster.jpg','./images and video/3rd video poster.jpg','./images and video/4th video poster.jpg']
+const videoindex=['./images and video/1st video.mp4','./images and video/3rd_video.mp4','./images and video/2nd_video.mp4','./images and video/4th_video.mp4']
 const videoElement = document.getElementById('vid');
 videoElement.addEventListener('ended', handleVideoEnd);
 document.getElementById('b11').addEventListener('click',function(){
@@ -200,8 +200,8 @@ document.getElementById('b1').style.color='white'
 document.getElementById('b1').style.borderColor='white'
 let videoposter2=0
 let videocurrentindex2=0
-const videoindexposter2=['/images and video/1st video poster2.jpg','/images and video/2nd video poster2.jpg','/images and video/3rd video poster2.jpg','/images and video/4th video poster2.jpg']
-const videoindex2=['/images and video/1st video2.mp4','/images and video/2nd video2.mp4','/images and video/3rd video2.mp4','/images and video/4th video2.mp4']
+const videoindexposter2=['./images and video/1st video poster2.jpg','./images and video/2nd video poster2.jpg','./images and video/3rd video poster2.jpg','./images and video/4th video poster2.jpg']
+const videoindex2=['./images and video/1st video2.mp4','./images and video/2nd video2.mp4','./images and video/3rd video2.mp4','./images and video/4th video2.mp4']
 const videoElement2 = document.getElementById('vid2');
 videoElement2.addEventListener('ended', handleVideoEnd2);
 document.getElementById('b1').addEventListener('click',function(){
@@ -230,16 +230,16 @@ document.getElementById('b4').addEventListener('click',function(){
 
 document.getElementById('forest').addEventListener('click',function(){
   const imagechange=document.getElementById('last-img')
-  imagechange.innerHTML='<img src="/images and video/last image2.jpg" alt=""></img>'
+  imagechange.innerHTML='<img src="./images and video/last image2.jpg" alt=""></img>'
   document.getElementById('color').id=''
 })
 document.getElementById('water').addEventListener('click',function(){
   const imagechange=document.getElementById('last-img')
-  imagechange.innerHTML='<img src="/images and video/last image3.jpg" alt=""></img>'
+  imagechange.innerHTML='<img src="./images and video/last image3.jpg" alt=""></img>'
   document.getElementById('color').id=''
 })
 document.getElementById('urban').addEventListener('click',function(){
   const imagechange=document.getElementById('last-img')
-  imagechange.innerHTML='<img src="/images and video/last image1.jpg" alt=""></img>'
+  imagechange.innerHTML='<img src="./images and video/last image1.jpg" alt=""></img>'
   document.getElementById('color').id=''
 })
