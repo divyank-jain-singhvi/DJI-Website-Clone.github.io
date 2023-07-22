@@ -1,0 +1,587 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.line-1{
+    margin: auto;
+    max-width: 80%;
+    margin-top: 1vw;
+    z-index: -1;
+}
+.video-background{
+    z-index: -1;
+}
+.detail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contant{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contant li{
+    list-style-type: none;
+    margin-left: 2vw;
+}
+.button button{
+    background:linear-gradient(#535759,#3b3e40);
+    height: 32px;
+    padding: 6px 16px;
+    border-radius: 4px;
+    color: white
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.content{
+    position: relative;
+    font-size: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 15vw;
+    color: white;
+}
+video{
+    width: 100%;
+    height: 115vh;
+}
+.video-position{
+    position: absolute;
+    height: 100px;
+}
+.video-button{
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    background-color: rgb(40, 40, 40);
+    justify-content: space-around;
+    width: 100%;
+    opacity: 0.8;
+    color: white;
+    height: 50px;
+    font-size: 3vh;
+    align-items: center;
+    top:4.5vw;
+
+}
+.video-link ul{
+    display: flex;
+}
+.video-link ul li{
+    list-style-type: none;
+    margin-left: 2vh;
+}
+.video-button div a{
+    color: white;
+}
+.fixed{             
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+.block-2{
+    position: relative;
+    margin-top: 37%;
+}
+.block-2 div p{
+    color: white;
+    position: absolute;
+    top:10%;
+    z-index: 3;
+    font-size: 3vh;
+    max-width: 50%;
+    text-align: center;
+    left: 25%;
+}
+.block-2 img{
+    width: 100%;
+    height: 692px;
+}
+.block-3-back{
+    background-image: url("/images and video/next drone.jpg");
+    padding: 10vh 0;
+    margin-top: -5px;
+}
+.block-3{
+    margin: auto;
+    color: white;
+    display: block;
+    max-width: 70%;
+}
+.block-3 ul{
+    display: flex;
+    justify-content: space-between;
+}
+.block-3 ul li{
+    list-style-type: none;
+    font-size: 5vh;
+    max-width: 30%;
+    
+}
+.block-3 ul li p{
+    font-size: 2.5vh;
+    color: rgb(213, 213, 213);
+    margin-top: 20px;
+}
+.block-4-back{
+    background-color: black;
+    padding-bottom: 10vh;
+}
+.block-4{
+    margin: auto;
+    color: white;
+    display: block;
+    max-width: 70%;
+}
+.block-4 ul{
+    display: flex;
+    justify-content: space-between;
+}
+.block-4 ul li{
+    list-style-type: none;
+    font-size: 5vh;
+    max-width: 30%;
+    
+}
+.block-4 ul li p{
+    font-size: 2.5vh;
+    color: rgb(213, 213, 213);
+    margin-top: 20px;
+}
+.fix{
+    position: relative;
+}
+.tough{
+    position: absolute;
+    background-image: url("/images and video/drone1.jpg");
+    height: 100vh;
+
+    z-index: 1;
+    top :0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    transition: all .3s;
+    
+}
+.fixvideo{
+    position: fixed;
+}
+.changebg{
+    background-image: url("/images and video/drone2.jpg");
+    height: 100vh;
+    width: 100%;
+}
+.changebg2{
+    background-image: url("/images and video/drone3.jpg");
+    height: 100vh;
+    width: 100%;
+}
+.tough p{
+    color: white;
+}
+.background-video2{
+    width: 100%;
+    height: 100vh;
+}
+.background-video2 video{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    opacity: 0.3;
+    object-fit: cover;
+        
+}
+.block-55 img{
+    width: 100%;
+    height: 100vh;
+    margin-top: 265vh;
+    margin-bottom: -1vh;
+}
+.block-5-back{
+    background-color: rgb(7, 7, 7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* margin-top: 265vh; */
+    position: relative;
+    padding: 10% 0 0 0;
+}
+
+.block-5{
+    display: flex;
+    color: white;
+    width: 100%;
+    
+    flex-direction: column;
+    text-align: center;
+    max-width: 50%;
+    position: absolute;
+}
+.block-5 > p:first-child{
+    font-size: 4vh;
+    color: greenyellow;
+}
+.block-5 > p:nth-child(2){
+    font-size: 12vh;
+}
+.block-5 > p:nth-child(3){
+    margin-top: 3%;
+    font-size: 3vh;
+}
+
+.block-6-back{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block-6{
+    display: flex;
+    color: white;
+    width: 100%;
+    padding: 5% 0;
+    flex-direction: column;
+    text-align: center;
+    max-width: 40%;
+}
+.block-6 > p:first-child{
+    font-size: 8vh;
+}
+.back1{
+    background-color: black;
+}
+.block-7-back{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.block-7{
+    display: flex;
+    color: white;
+    width: 100%;
+    padding: 5% 0;
+    flex-direction: column;
+    max-width: 30%;
+    text-align: left;
+    margin-left: 16%;
+    
+}
+.block-7 > p:first-child{
+    font-size: 5vh;
+}
+.block-7 > p:nth-child(2){
+    font-size: 5vh;
+    margin-top: 5vh;
+}
+.block-7 > p:nth-child(3){
+    font-size: 4vh;
+    color: rgb(204, 204, 204);
+}
+.block-7 > p:nth-child(4){
+    font-size: 5vh;
+    margin-top: 5vh;
+}
+.block-7 > p:nth-child(5){
+    font-size: 3vh;
+    color: rgb(204, 204, 204);
+}
+.video1 video{
+    width: 80%;
+    height: 70vh;
+}
+
+.block-8-back{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 6%;
+    padding-top: 5%;
+}
+.img1{
+    width: 100%;
+}
+.img1 img{
+   width: 70%;
+   height: 60vh;
+   margin-left: 16%;
+}
+.back2{
+    background-color: black;
+}
+.block-8{
+    display: flex;
+    color: white;
+    width: 100%;
+    padding: 5% 0;
+    flex-direction: column;
+    max-width: 30%;
+    text-align: left;
+    
+}
+.block-8 > p:first-child{
+    font-size: 5vh;
+}
+.block-8 > p:nth-child(2){
+    font-size: 5vh;
+    margin-top: 5vh;
+}
+.block-8 > p:nth-child(3){
+    font-size: 4vh;
+    color: rgb(204, 204, 204);
+}
+.block-8 > p:nth-child(4){
+    font-size: 5vh;
+    margin-top: 5vh;
+}
+.block-8 > p:nth-child(5){
+    font-size: 3vh;
+    color: rgb(204, 204, 204);
+}
+.block-9-back{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block-9{
+    display: flex;
+    color: white;
+    width: 100%;
+    padding: 5% 0;
+    flex-direction: column;
+    text-align: center;
+    max-width: 50%;
+}
+.block-9 > p:first-child{
+    font-size: 5vh;
+}
+
+.block-10-back{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    margin-top: -15%;
+}
+.block-10{
+    display: flex;
+    color: white;
+    width: 100%;
+    padding: 5% 0;
+    flex-direction: column;
+    text-align: left;
+    max-width: 20%;
+    margin-left: 40vh
+}
+.block-10 > p:first-child{
+    font-size: 3vh;
+    color: rgb(216, 216, 216);
+}
+.vid3 video{
+    width: 65%;
+    margin-left: 15%;
+
+}
+.block-11-back{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block-11{
+    display: flex;
+    color: white;
+    width: 100%;
+    flex-direction: column;
+    max-width: 60%;
+    text-align: center;
+    
+}
+.block-11 > p:first-child{
+    font-size: 5vh;
+}
+.block-11 > p:nth-child(2){
+    font-size: 2.5vh;
+    margin-top: 2vh;
+    color: rgb(235, 235, 235);
+}
+.vid4{
+    background-color: black;
+    text-align: center;
+}
+.vid4 video{
+    width: 80%;
+}
+.app-block-1-back{
+    background-color: rgb(20, 20, 20);;
+    display: flex;
+    flex-direction: column;
+}
+.app-block-1{
+    font-size: 5vh;
+    text-align: center;
+    color: white;
+}
+.app-block-1 h1{
+    margin: 6% 0 2% 0;
+}
+.video-block-1-back{
+    background-color: rgb(20, 20, 20);;
+}
+.video-block-1{
+    display: flex;
+    color: white;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    margin-top: -15%;
+    font-size: 3vh;
+    margin: auto;
+    max-width: 80%;
+}
+.videoloop{
+    margin-top: 5vh;
+}
+.vid video source{
+    width: 100%;
+    height: 100vh;
+}
+.vid video{
+    height:80vh;
+}
+.block-1-contant{
+    max-width: 50%;
+}
+.videoloop button{
+    border: none;
+    color: rgb(151, 151, 151);
+    background-color: rgb(20, 20, 20);;
+    font-size: 20px;
+    border-left: 2px solid rgb(151, 151, 151);
+    padding: 2vh 0 2vh 2vh;
+    transition: all .25s;
+}
+.videoloop button:hover{
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+.block-1-contant > p:first-child{
+    font-size: 5vh;
+    margin-bottom: 2vw;
+}
+.block-12{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    
+}
+.block-12-content{
+    margin: auto;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 4vh;
+}
+.block-12-content p:nth-child(2){
+    font-size: 2.5vh;
+    color: rgb(193, 193, 193);
+    margin-top: 4vh;
+    margin-bottom: 8vh;
+}
+.last-img{
+    margin: auto;
+    max-width: 90%;
+    text-align: center;
+}
+.last-img img{
+    max-width: 90%;
+    height: 70vh;
+}
+.last-button{
+    text-align: center;
+    margin-top: 7vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.last-button button{
+    background-color: rgb(20, 20, 20);
+    color: rgb(150, 149, 149);;
+    border: none;
+    border-bottom: 3px solid rgb(150, 149, 149);
+    margin-bottom: 20vh;
+    padding: 10px;
+    margin-left: -5px;
+    font-size: 2.5vh;
+    transition: all 0.3s;
+}
+#color button{
+    color: white;
+    border-color: white;
+}
+.last-button button:hover{
+    color: white;
+}
+.last-button button:focus{
+    color: white;
+    border-color: white;
+    border-width: 3px;
+}
+.block-2-content{
+    margin-left: 5vh;
+}
+.videoloop2{
+    margin-top: 1vh;
+}
+.block-2-contant > p:first-child{
+    margin-bottom:0vw;
+}
+.open-echo{
+    background-color: black;
+    font-size: 7vh;
+    color: white;
+    text-align: center;
+    padding: 15vh;
+    padding-bottom: 5vh;
+}
+.box-1-back{
+    background-color: black;
+}
+.box-1{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 70%;
+    background-color: black;
+}
+.box-1-sub1,.box-1-sub2{
+    max-width: 45%;
+    background-color:rgb(20, 20, 20);
+    color: white;
+    font-size: 2.5vh;
+    padding: 5% 2% 5% 2%;
+}
+.box-1-sub1 p:first-child{
+    font-size: 4vh;
+    padding-bottom: 4%;
+}
+.box-1-sub2 p:first-child{
+    font-size: 4vh;
+    padding-bottom: 4%;
+}
